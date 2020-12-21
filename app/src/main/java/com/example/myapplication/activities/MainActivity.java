@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,14 +7,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.myapplication.activities.ActivityCategorias;
-import com.example.myapplication.activities.ActivityChef;
-import com.example.myapplication.configuration.LectorQR;
+import com.example.myapplication.R;
 import com.example.myapplication.database.DataBase;
+import com.example.myapplication.configuration.Youtube;
 import com.example.myapplication.dialogs.SignInChef;
 import com.example.myapplication.dialogs.SignInKey;
 
@@ -61,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Se necesita realizar una configuración", Toast.LENGTH_SHORT).show();
                 }
                 else{
+             //       Toast.makeText(getApplicationContext(),DataBase.url + " -> " + MainActivity.tableNumber, Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), ActivityCategorias.class);
                     startActivity(intent);
                 }

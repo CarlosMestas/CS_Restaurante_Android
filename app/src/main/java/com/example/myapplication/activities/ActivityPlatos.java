@@ -1,33 +1,22 @@
 package com.example.myapplication.activities;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myapplication.MainActivity;
 import com.example.myapplication.R;
-import com.example.myapplication.adapters.AdapterCategoria;
 import com.example.myapplication.adapters.AdapterPlato;
-import com.example.myapplication.clases.Categoria;
 import com.example.myapplication.clases.Comida;
-import com.example.myapplication.clases.Pedido;
 import com.example.myapplication.database.DataBase;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 
 public class ActivityPlatos extends AppCompatActivity {
 

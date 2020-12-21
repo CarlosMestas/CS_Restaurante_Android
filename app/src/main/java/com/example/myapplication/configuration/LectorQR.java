@@ -2,17 +2,17 @@ package com.example.myapplication.configuration;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myapplication.MainActivity;
+import com.example.myapplication.activities.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.database.DataBase;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
 
 public class LectorQR extends AppCompatActivity {

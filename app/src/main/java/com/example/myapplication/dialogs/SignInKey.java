@@ -2,7 +2,6 @@ package com.example.myapplication.dialogs;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,15 +10,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
-import com.example.myapplication.MainActivity;
+import com.example.myapplication.activities.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.configuration.LectorQR;
-import com.example.myapplication.database.DataBase;
-import com.google.zxing.integration.android.IntentIntegrator;
-import com.google.zxing.integration.android.IntentResult;
 
 public class SignInKey extends AppCompatDialogFragment {
     private EditText editTextUniqueKey;

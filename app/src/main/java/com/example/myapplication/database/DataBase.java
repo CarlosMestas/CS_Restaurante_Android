@@ -16,7 +16,7 @@ public class DataBase {
     public static String url = "*";
     private static String urlP1 = "jdbc:mysql://";
     private static String urlP2 = "/cs_restaurant";
-    private static String user = "cmestas";
+    private static String user = "cs";
     private static String password = "123456";
 
     public static void setIP(String _ip){

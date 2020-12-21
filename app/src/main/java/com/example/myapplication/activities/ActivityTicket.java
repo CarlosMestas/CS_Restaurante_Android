@@ -9,13 +9,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.myapplication.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.adapters.AdapterPedidoDetalleTicket;
-import com.example.myapplication.clases.PedidoDetalle;
-import com.example.myapplication.dialogs.DialogEmail;
-
-import java.util.ArrayList;
 
 public class ActivityTicket extends AppCompatActivity {
 

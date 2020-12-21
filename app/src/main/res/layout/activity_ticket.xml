@@ -239,7 +239,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Enviar Correo" />
+                android:text="Enviar Correo"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/buttonFinalizar"

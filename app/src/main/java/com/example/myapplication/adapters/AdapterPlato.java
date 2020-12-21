@@ -6,13 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myapplication.MainActivity;
+import com.example.myapplication.activities.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.activities.ActivityCategorias;
 import com.example.myapplication.clases.Comida;

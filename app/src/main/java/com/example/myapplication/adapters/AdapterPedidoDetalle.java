@@ -6,17 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myapplication.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.activities.ActivityCategorias;
-import com.example.myapplication.clases.Categoria;
-import com.example.myapplication.clases.Comida;
 import com.example.myapplication.clases.PedidoDetalle;
 import com.example.myapplication.database.DataBase;
 

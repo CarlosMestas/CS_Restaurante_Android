@@ -38,7 +38,7 @@
             android:name=".configuration.LectorQR"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +47,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Youtube">
+            android:name=".configuration.Youtube"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.DEFAULT" />
             </intent-filter>

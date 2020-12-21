@@ -6,12 +6,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
-import com.example.myapplication.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.adapters.MyAdapterPedido;
-import com.example.myapplication.clases.Comida;
 import com.example.myapplication.clases.PedidoDetalle;
 import com.example.myapplication.database.DataBase;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

@@ -12,10 +12,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatDialogFragment;
 
-import com.example.myapplication.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.activities.ActivityChef;
-import com.example.myapplication.configuration.LectorQR;
 
 public class SignInChef extends AppCompatDialogFragment {
     private EditText editTextUniqueKeyChef;
